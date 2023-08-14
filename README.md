@@ -1,2 +1,2 @@
 # digimobile-ios-share
-A private repo for sharing the DiGi mobile iOS app internally.
+A repo for sharing the DiGi mobile iOS app internally.
