@@ -1,0 +1,51 @@
+
+db.getCollection('ICOR_S_EXT_SRC_MAP').remove({"SrcID" : "TecuDigiAppIOS"})
+
+db.getCollection('ICOR_S_EXT_SRC_MAP').insertOne(
+
+{
+    "SrcID" : "TecuDigiAppIOS",
+    "SrcApiKey" : "a23f64gslj8j3f632148hfds8dj5kj4df39",
+    "IdentityModulesValRequired" : "N",
+    "IdentityModulesValMode" : "A",
+    "IdentityModules" : {
+        "IW" : NumberInt(1) 
+    },
+    "ImeValRequired" : "N",
+    "IPValRequired" : "N",
+    "IPValMode" : "D",
+    "IPList" : "",
+    "Suspended" : "N",
+    "SuspensionRemarks" : "",
+    "ApiKeyValidFrmDt" : "",
+    "ApiKeyValidEndDt" : Date(253402253442389),
+    "ApiKeyisLifeTime" : "Y",
+    "VendorName" : "IMPACTO",
+    "VendorCompany" : "",
+    "VendorContactPerson" : "",
+    "VendorContactEmail1" : "",
+    "VendorContactEmail2" : "",
+    "VendorContactEmail3" : "",
+    "VendorContactPh1" : "",
+    "VendorContactPh2" : "",
+    "VendorContactPh3" : "",
+    "LoginCaptcha" : "N",
+    "LoginipassCode" : "N",
+    "LoginIPin" : "N",
+    "PassCodeValiditySecs" : "600",
+    "LoginiBio" : "N",
+    "Login2FA" : "N",
+    "CltVerValReq" : "Y",
+    "CltVerAlw" : [ 
+      	"1.0.4.1",
+	"1.0.4.0"
+    ],
+    "CltOSValReq" : "N",
+    "CltOSAlw" : [],
+    "CltTimeValReq" : "N",
+    "SessionTrackReq" : "RMK5iaXGQMDzwtSbaV4j4A==",
+    "SetupParameters" : {
+        "locationTime" : "600"
+    }
+}
+)
